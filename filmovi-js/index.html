@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Disney movies</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Disney movies</h1>
+      <div class="cards">
+        <div class="card">
+          <h2 class="name-movie">The Little Mermaid</h2>
+          <img src="img/little.jpg" />
+          <p class="description">
+            Dive into Disney fun with Ariel in The Little Mermaid.
+          </p>
+          <p class="price">$9</p>
+          <button onclick="addToCart(this)">Gledaj</button>
+        </div>
+        <div class="card">
+          <h2 class="name-movie">Luca</h2>
+          <img src="img/Luca.jpg" />
+          <p class="description">
+            Luca, a young sea monster, spends an amazing summer on the Italian
+            Riviera
+          </p>
+          <p class="price">$19</p>
+          <button onclick="addToCart(this)">Gledaj</button>
+        </div>
+        <div class="card">
+          <h2 class="name-movie">Raya And The Last Dragon</h2>
+          <img src="img/Raya.jpg" />
+          <p class="description">
+            Raya seeks the legendary last dragon to stop the evil threatening
+            humanity.
+          </p>
+          <p class="price">$29</p>
+          <button onclick="addToCart(this)">Gledaj</button>
+        </div>
+      </div>
+      <h2 class="check-out">Check out:</h2>
+      <div class="checkout-items"></div>
+      <div class="total"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
